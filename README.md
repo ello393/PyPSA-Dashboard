@@ -12,3 +12,16 @@ plotly-based dashboard for interactive visualization of PyPSA-results
 - Store-Komponenten müssen immer über einen separaten Bus mit zwei Links (Laden/ Entladen) implementiert werden
 - Alle Komponenten, die in der Wirtschaftlichkeitsberechnung berücksichtigt werden sollen, müssen Lifetime hinterlegt haben (für Annualisierung)
 - Im Variantenvergleich dürfen nur MIP mit MIP und Single Year mit Single Year verglichen werden
+
+Used Software:
+
+Python: 	Version 3.12.12
+PyPSA: 	Version 1.0.3
+NumPy: 	Version 1.26.4
+Pandas: 	Version 2.3.3
+Dash: 		Version 3.3.0
+Plotly: 		Version 6.5.0
+Developed in Spyder 6.1.0
+Packed by conda-forge
+Dashboard tested in Mozilla Firefox Version 147.0.3 (64-Bit)
+Windows-11-10.0.26200-SP0
