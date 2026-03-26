@@ -1,0 +1,23 @@
+/* Global: Verdana in der ganzen App */
+html, body {
+  font-family: Helvetica, Geneva, Tahoma, sans-serif;
+}
+
+/* Überschriften etc. erben die Schrift */
+h1, h2, h3, h4, h5, h6, p, label, div, span {
+  font-family: inherit;
+}
+
+/* Dash Core Components (Dropdown etc.) – damit auch dort sicher Verdana greift */
+.Select-control,
+.Select-menu-outer,
+.Select-value,
+.Select-input,
+.Select-placeholder,
+.VirtualizedSelectOption,
+.DateInput_input,
+.DateRangePickerInput,
+.rc-slider,
+.rc-slider * {
+  font-family: Helvetica, Geneva, Tahoma, sans-serif !important;
+}
